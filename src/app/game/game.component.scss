@@ -1,0 +1,22 @@
+#field {
+  background-image: url("/assets/img/field_bg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-stack {
+  position: relative;
+
+  img.card {
+    width: 200px;
+    position: absolute;
+  }
+}
